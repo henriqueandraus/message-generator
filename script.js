@@ -1,0 +1,29 @@
+const signs = ['Áries', 'Touro', 'Gêmeos', 'Câncer', 'Leão', 'Virgem'];
+
+const predictions = [
+  'vai encontrar dinheiro no bolso da calça',
+  'receberá uma mensagem misteriosa',
+  'terá uma ideia brilhante no banho',
+  'vai tropeçar em algo invisível',
+];
+
+const advice = [
+  'Evite comer pizza às 3 da manhã.',
+  'O universo recomenda tirar uma soneca.',
+  'Beba água. Sempre beba água.',
+  'Confie no processo... ou não.',
+];
+
+const getRandom = (arr) => arr[Math.floor(Math.random() * arr.length)];
+
+const generateMessage = () => {
+  const sign    = getRandom(signs);
+  const predict = getRandom(predictions);
+  const tip     = getRandom(advice);
+
+  console.log(`\n🔮 Horóscopo do dia para ${sign}:`);
+  console.log(`Hoje você ${predict}.`);
+  console.log(`Conselho cósmico: ${tip}\n`);
+};
+
+generateMessage();
