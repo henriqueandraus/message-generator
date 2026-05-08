@@ -5,6 +5,9 @@ const predictions = [
   'receberá uma mensagem misteriosa',
   'terá uma ideia brilhante no banho',
   'vai tropeçar em algo invisível',
+  'vai ganhar um elogio inesperado',
+  'vai perder o fone de ouvido e achar no lugar mais óbvio',
+  'vai finalmente terminar aquela série que estava atrasado',
 ];
 
 const advice = [
