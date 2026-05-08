@@ -1,4 +1,4 @@
-const signs = ['Áries', 'Touro', 'Gêmeos', 'Câncer', 'Leão', 'Virgem'];
+const signs = ['Áries', 'Touro', 'Gêmeos', 'Câncer', 'Leão', 'Virgem', 'Libra', 'Escorpião', 'Sagitário', 'Capricórnio', 'Aquário', 'Peixes'];
 
 const predictions = [
   'vai encontrar dinheiro no bolso da calça',
